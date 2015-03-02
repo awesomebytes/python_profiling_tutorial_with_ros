@@ -292,7 +292,7 @@ Now from that percentage 94.63% was used in the `rospy.sleep(1.0)` call and a si
  
     kcachegrind listener.callgrindoutput
     
- <insert screenshot>
+ [kcachegrind screenshot](https://raw.githubusercontent.com/awesomebytes/python_profiling_tutorial_with_ros/master/kcacegrind_screenshot.png)
  
  The interpretation of the data with `kcachegrind` may be more complicated, here you have the official documentation: https://lbtwiki.cern.ch/bin/view/Online/Kcachegrind. 
  I found out that ordering by the Self collum was the most useful for me. What it means?
