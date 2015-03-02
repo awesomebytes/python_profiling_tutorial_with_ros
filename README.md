@@ -12,9 +12,6 @@ For using pprofile (https://github.com/vpelletier/pprofile):
 
     sudo pip install pprofile
 
-For using line_profiler (https://github.com/rkern/line_profiler):
-
-    sudo pip install line_profiler
 
 Download `kcachegrind` to view results:
 
@@ -304,10 +301,20 @@ Now from that percentage 94.63% was used in the `rospy.sleep(1.0)` call and a si
  threading, serializing, timing, networking of the ROS node, which is A LOT and it usually involves most of the execution
  time of a node.
 
-## Debug using line_profiler 
 
 
 # Other options revised
+
+## Using line_profiler
+
+For using line_profiler (https://github.com/rkern/line_profiler):
+
+    sudo pip install line_profiler
+
+TODO: do documentation about it, I just tested it, the official github documentation is good.
+
+
+## Using pyvmmonitor
 
 Note: this was painful to get it to work, that's why it's presented aside.
 
